@@ -1,6 +1,5 @@
 import os.path
 
-
 def fillFile(path):
     if os.path.exists(path):
         os.remove(path)
