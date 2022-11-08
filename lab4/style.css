@@ -81,7 +81,7 @@ img{
             "d"
             "img";
         margin: 5% 5% 0 5%;
-        grid-template-columns: 90%;
+        grid-template-columns: 100%;
         grid-column-gap: 0;
     }
     .text-block{
