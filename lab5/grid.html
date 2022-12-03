@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="grid.css">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+</head>
+<body onload="checkCookies(); checkStorage()" onscroll="setBoldness()">
+
+
+<header>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Not a Rickroll</a>
+    <div>
+        <h1>Bururik.com</h1>
+    </div>
+</header>
+<main>
+    <div id="block-2">
+        <p>I am block #2</p>
+        <button type="button" onclick="replace_blocks()">Replace blocks 4 & 5</button>
+        <button type="button" onclick="calculate_triangle_square()">Calculate triangle square</button>
+        <button type="button" onclick="read_block_3()">Read block 3</button>
+    </div>
+    <div id="block-3"><p>I am block #3</p>
+    </div>
+    <div id="block-4">
+        <p>I am block #4</p>
+        <ul  id="list">
+        </ul>
+    </div>
+    <div id="block-5"><p>I am block #5</p>
+
+    </div>
+    <div id="block-6">
+        <p onclick="addItem()">I am block #6</p>
+        <br>
+        <button type="button" onclick="save_to_storage()">Save list to storage</button>
+        <br>
+        <input type="radio" id="boldness-1"
+     name="boldness" value="regular">
+    <label for="boldness-1">Regular</label>
+
+    <input type="radio" id="boldness-2"
+     name="boldness" value="bold">
+    <label for="boldness-2">Bold</label>
+
+    </div>
+</main>
+<footer>
+    <div>
+        <h1>Bururik.com</h1>
+    </div>
+    <p>@burur14</p>
+</footer>
+
+
+</body>
+</html>
